@@ -1,0 +1,118 @@
+.body3 {
+    background-image:url('logo/location.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1250px;
+    /* margin-left: 400px; */
+    
+  }
+  
+
+  
+  .title a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    top:6rem;   
+  }
+  
+  .auth-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+  }
+  
+  .auth-links a:hover {
+    background-color: #0056b3;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color:red;
+    /* padding: 2px 0; */
+  
+}
+h5{
+  margin-left: 4rem;
+  color:white;
+  font-size:1rem;
+  margin-bottom: 2.5rem;
+  span{
+    color:black;
+    font-size:1rem;
+  }
+}
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 14rem;
+  
+  }
+  
+  .navbar li {
+    display: flex;
+    margin: 0 20px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 100px;
+  }
+  
+  .navbar li:first-child {
+    margin-left: 100px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover::after {
+    width: 100%;
+  }
+  
+  .navbar a:hover {
+    color: lightgray;
+  }
+#logoimg
+{
+  width: 100px; 
+  height: auto; 
+  margin-right: 10px; 
+  display: inline-block; 
+}
+
+.prof{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-left: 250px;
+}
+.user-icon{
+  height:20px;
+  width:50 ;
+  
+}

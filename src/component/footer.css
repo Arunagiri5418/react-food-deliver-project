@@ -1,0 +1,62 @@
+/* footer.css */
+.footer-wrapper1{
+    margin-top: 2rem;
+    background-color: #333; /* Dark background color */
+    color:gray; /* White text color */
+    
+  }
+  
+  .footer-section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .footer-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-icons a {
+    color: #fff; /* White color for icon links */
+    margin-right: 10px; /* Space between icons */
+  }
+  
+  .footer-section-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer-section-columns {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Space between columns */
+  }
+  
+  .footer-section-columns span {
+    margin-bottom: 10px; /* Space between items in a column */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .footer-section-one {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-icons {
+      margin-top: 10px;
+    }
+  
+    .footer-section-two {
+      flex-direction: column;
+    }
+  
+    .footer-section-columns {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
